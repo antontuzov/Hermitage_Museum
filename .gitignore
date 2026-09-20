@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / tooling (project is dependency-free, but guard anyway)
+node_modules/
+package-lock.json
+
+# Vercel
+.vercel/
+.env
+.env.local
