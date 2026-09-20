@@ -408,7 +408,7 @@
   const langButtons = Array.from(document.querySelectorAll(".lang-toggle button"));
   let lang = localStorage.getItem("hermitage-lang");
   if (lang !== "ru" && lang !== "en") {
-    lang = navigator.language && navigator.language.toLowerCase().startsWith("ru") ? "ru" : "en";
+    lang = navigator.language && navigator.language.toLowerCase().startsWith("en") ? "ru" : "en";
   }
 
   function applyLang(next) {
