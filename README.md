@@ -6,7 +6,15 @@ A magazine-style, horizontally-scrolling single-page site. Seven full-screen spr
 
 **Live demo:** _add your Vercel URL here after publishing, e.g. `https://hermitage-review.vercel.app`_
 
-![Hermitage Review cover](web/assets/cover-peacock-clock.jpg)
+## Screenshots
+
+**Folio I · The Cover** — full-bleed gilded Peacock Clock photo, the masthead *Hermitage Review · I / VII*, the *State Hermitage Museum* title, two inset plate cards (porcelain & Scythian gold) and the Roman-numeral rail I–VII.
+
+![Cover spread screenshot](screenshots/screenshot-cover.png)
+
+**Folio III · Featured Collections** — the *Six galleries, six obsessions* headline beside the collection cards with loaded plates (Rembrandt, amphora, steppe gold, fauvist still life, parade armour); the masthead counter reads *III / VII*.
+
+![Featured collections spread screenshot](screenshots/screenshot-collections.png)
 
 ---
 
@@ -54,6 +62,7 @@ Hermitage_Museum/
 │   ├── vercel.json         # Vercel config (clean URLs, asset cache headers)
 │   └── assets/             # 12 optimized JPG plates
 ├── vibe_images/            # Original AI-rendered PNG sources (not deployed)
+├── screenshots/            # README screenshots (site captures, not deployed)
 └── README.md
 ```
 
